@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/justinas/alice"
+	"github.com/cool-rest/alice"
 	"github.com/cool-rest/cors"
 )
 

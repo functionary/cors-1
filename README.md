@@ -55,7 +55,7 @@ The server now runs on `localhost:8080`:
 * [Goji](https://goji.io): [examples/goji/server.go](https://github.com/cool-rest/cors/blob/master/examples/goji/server.go)
 * [Martini](http://martini.codegangsta.io): [examples/martini/server.go](https://github.com/cool-rest/cors/blob/master/examples/martini/server.go)
 * [Negroni](https://github.com/codegangsta/negroni): [examples/negroni/server.go](https://github.com/cool-rest/cors/blob/master/examples/negroni/server.go)
-* [Alice](https://github.com/justinas/alice): [examples/alice/server.go](https://github.com/cool-rest/cors/blob/master/examples/alice/server.go)
+* [Alice](https://github.com/cool-rest/alice): [examples/alice/server.go](https://github.com/cool-rest/cors/blob/master/examples/alice/server.go)
 
 ## Parameters
 
