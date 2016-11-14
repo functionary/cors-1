@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/rs/cors"
+	"github.com/cool-rest/cors"
 	"github.com/zenazn/goji"
 )
 

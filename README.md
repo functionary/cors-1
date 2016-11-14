@@ -1,4 +1,4 @@
-# Go CORS handler [![godoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/rs/cors) [![license](http://img.shields.io/badge/license-MIT-red.svg?style=flat)](https://raw.githubusercontent.com/rs/cors/master/LICENSE) [![build](https://img.shields.io/travis/rs/cors.svg?style=flat)](https://travis-ci.org/rs/cors) [![Coverage](http://gocover.io/_badge/github.com/rs/cors)](http://gocover.io/github.com/rs/cors)
+# Go CORS handler [![godoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/cool-rest/cors) [![license](http://img.shields.io/badge/license-MIT-red.svg?style=flat)](https://raw.githubusercontent.com/rs/cors/master/LICENSE) [![build](https://img.shields.io/travis/rs/cors.svg?style=flat)](https://travis-ci.org/rs/cors) [![Coverage](http://gocover.io/_badge/github.com/cool-rest/cors)](http://gocover.io/github.com/cool-rest/cors)
 
 CORS is a `net/http` handler implementing [Cross Origin Resource Sharing W3 specification](http://www.w3.org/TR/cors/) in Golang.
 
@@ -12,7 +12,7 @@ package main
 import (
     "net/http"
 
-    "github.com/rs/cors"
+    "github.com/cool-rest/cors"
 )
 
 func main() {
@@ -32,7 +32,7 @@ func main() {
 
 Install `cors`:
 
-    go get github.com/rs/cors
+    go get github.com/cool-rest/cors
 
 Then run your server:
 
@@ -51,11 +51,11 @@ The server now runs on `localhost:8080`:
 
 ### More Examples
 
-* `net/http`: [examples/nethttp/server.go](https://github.com/rs/cors/blob/master/examples/nethttp/server.go)
-* [Goji](https://goji.io): [examples/goji/server.go](https://github.com/rs/cors/blob/master/examples/goji/server.go)
-* [Martini](http://martini.codegangsta.io): [examples/martini/server.go](https://github.com/rs/cors/blob/master/examples/martini/server.go)
-* [Negroni](https://github.com/codegangsta/negroni): [examples/negroni/server.go](https://github.com/rs/cors/blob/master/examples/negroni/server.go)
-* [Alice](https://github.com/justinas/alice): [examples/alice/server.go](https://github.com/rs/cors/blob/master/examples/alice/server.go)
+* `net/http`: [examples/nethttp/server.go](https://github.com/cool-rest/cors/blob/master/examples/nethttp/server.go)
+* [Goji](https://goji.io): [examples/goji/server.go](https://github.com/cool-rest/cors/blob/master/examples/goji/server.go)
+* [Martini](http://martini.codegangsta.io): [examples/martini/server.go](https://github.com/cool-rest/cors/blob/master/examples/martini/server.go)
+* [Negroni](https://github.com/codegangsta/negroni): [examples/negroni/server.go](https://github.com/cool-rest/cors/blob/master/examples/negroni/server.go)
+* [Alice](https://github.com/justinas/alice): [examples/alice/server.go](https://github.com/cool-rest/cors/blob/master/examples/alice/server.go)
 
 ## Parameters
 
@@ -81,7 +81,7 @@ handler = c.Handler(handler)
 * **OptionsPassthrough** `bool`: Instructs preflight to let other potential next handlers to process the `OPTIONS` method. Turn this on if your application handles `OPTIONS`.
 * **Debug** `bool`: Debugging flag adds additional output to debug server side CORS issues.
 
-See [API documentation](http://godoc.org/github.com/rs/cors) for more info.
+See [API documentation](http://godoc.org/github.com/cool-rest/cors) for more info.
 
 ## Benchmarks
 
@@ -96,4 +96,4 @@ See [API documentation](http://godoc.org/github.com/rs/cors) for more info.
 
 ## Licenses
 
-All source code is licensed under the [MIT License](https://raw.github.com/rs/cors/master/LICENSE).
+All source code is licensed under the [MIT License](https://raw.github.com/cool-rest/cors/master/LICENSE).

@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/justinas/alice"
-	"github.com/rs/cors"
+	"github.com/cool-rest/cors"
 )
 
 func main() {
